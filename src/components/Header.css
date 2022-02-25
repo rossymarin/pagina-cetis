@@ -10,8 +10,8 @@
 
 .header_logo {
     object-fit: contain;
-    height: 90px;
-    margin: 0% 6% 0px 2%;
+    height: 60px;
+    margin: 0% 6% 0% 2%;
 }
 
 .header_cover{
@@ -24,15 +24,16 @@
 }
 
 .img{
-    padding:2px;
-    width:800px;
+    
+    width:220px;
     background-size: 100%;
     background-repeat:no-repeat;
     
 }
 
 .div{
-    height: 100px;
+    padding-right: 10%;
+    height: 70px;
     overflow: hidden;
 }
 
