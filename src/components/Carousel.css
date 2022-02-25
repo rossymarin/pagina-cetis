@@ -7,8 +7,9 @@
 }
 
 .carousel-img{
-    width: 100%;
+    width: auto;
     height: 100%;
+    object-fit: contain;
 }
 
 .carousel-item {
@@ -19,5 +20,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: rgb(187, 185, 186);
 }
   
