@@ -10,8 +10,10 @@ function App() {
     <div className="App">
         <Header />
         <Navbar />
-        <Carousel />
-        <PluginFB />
+        <div className="row">
+          <Carousel />
+          <PluginFB />
+        </div>
         <Footer />
     </div>
   );

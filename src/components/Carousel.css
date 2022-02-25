@@ -1,7 +1,7 @@
 .container{
-    padding: 10px;
-    height: 400px;
-    width: 800px;
+    padding: 1%;
+    height: 10%;
+    width: 10%;
     overflow: hidden;
     margin-left: 5%;
 }
@@ -20,6 +20,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: rgb(187, 185, 186);
+    background-color: rgb(219, 216, 216);
 }
   

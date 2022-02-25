@@ -1,4 +1,8 @@
 .container-plugin{
-    width: 500px;
+    padding: 1%;
+    width: 40%;
+    height: 80%;
     overflow: hidden;
 }
+
+
