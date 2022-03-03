@@ -17,12 +17,12 @@ const Navbar = () => {
                             Nuestra Institución
                             </a>
                             <ul className="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
-                                <li><a href="#">Some action</a></li>
+                                <li><a class="dropdown-item" href="#">CETis 28</a></li>
                                 <div className="dropdown-divider"></div>
-                                <li><a href="#">Some other action</a></li>
+                                <li><a class="dropdown-item" href="#">Orientación Educativa</a></li>
                                 <li className="divider"></li>
                                 <li className="dropdown-submenu">
-                                    <a tabIndex="-1" href="#">Hover me for more options</a>
+                                    <a class="dropdown-item" tabIndex="-1" href="#">Hover me for more options</a>
                                     <ul className="dropdown-menu">
                                     <li><a tabIndex="-1" href="#">Second level</a></li>
                                     <li className="dropdown-submenu">
@@ -42,26 +42,19 @@ const Navbar = () => {
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Oferta Académica
                             </a>
-                            <ul className="dropdown-menu multi-level dropdown-content" role="menu" aria-labelledby="dropdownMenu">
-                                <li><a href="#">Some action</a></li>
+                            <ul className="dropdown-menu multi-level dropdown-content navbar-sub-menu" role="menu" aria-labelledby="dropdownMenu">
+                                <li><a class="dropdown-item navbar-text" href="#">Programación</a></li>
                                 <div className="dropdown-divider"></div>
-                                <li><a href="#">Some other action</a></li>
-                                <li className="divider"></li>
-                                <li className="dropdown-submenu">
-                                    <a tabIndex="-1" href="#">Hover me for more options</a>
-                                    <ul className="dropdown-menu">
-                                    <li><a tabIndex="-1" href="#">Second level</a></li>
-                                    <li className="dropdown-submenu">
-                                        <a href="#">Even More..</a>
-                                        <ul className="dropdown-menu">
-                                            <li><a href="#">3rd level</a></li>
-                                            <li><a href="#">3rd level</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Second level</a></li>
-                                    <li><a href="#">Second level</a></li>
-                                    </ul>
-                                </li>
+                                <li><a class="dropdown-item navbar-text" href="#">Contabilidad</a></li>
+                                <div className="dropdown-divider"></div>
+                                <li><a class="dropdown-item navbar-text" href="#">Trabajo Social</a></li>
+                                <div className="dropdown-divider"></div>
+                                <li><a class="dropdown-item navbar-text" href="#">Laboratorista Químico</a></li>
+                                <div className="dropdown-divider"></div>
+                                <li><a class="dropdown-item navbar-text" href="#">Ofimática</a></li>
+                                <div className="dropdown-divider"></div>
+                                <li><a class="dropdown-item navbar-text" href="#">Mantenimiento Automotriz</a></li>
+                                
                             </ul> 
                         </li>
                         <li className="nav-item dropdown active">

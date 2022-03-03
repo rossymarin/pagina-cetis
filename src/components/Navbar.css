@@ -18,8 +18,8 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(126, 126, 128);
-    color: white;
+    background-color: rgb(252, 244, 244);
+    color: rgb(110, 20, 20);
     border-radius: 15px;
 }
   
@@ -95,4 +95,12 @@
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+
+.navbar-sub-menu{
+    background-color: rgb(240, 235, 238);
+}
+
+.navbar-text{
+    color: rgb(118, 7, 62) !important;
 }
