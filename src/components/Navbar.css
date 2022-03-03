@@ -3,7 +3,7 @@
         color: rgb(255, 255, 255) !important;
         height: var(--nav-height);
         font-size: 16px;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-content {
@@ -19,7 +19,7 @@
 
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(252, 244, 244);
-    color: rgb(110, 20, 20);
+    color: rgb(110, 20, 20) !important;
     border-radius: 15px;
 }
   
