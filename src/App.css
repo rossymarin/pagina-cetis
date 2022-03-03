@@ -17,7 +17,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-  
+  background-color: rgba(243, 220, 176, 0.342);
 }
 
 .column-1{
